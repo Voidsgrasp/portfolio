@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ
+
+
+{
+  "title": "Story",
+  "author": "dumbs",
+  "url": "dumbass.com",
+  "likes": 5,
+  "userId":"643d3d61ce5cd842bf4ceda5"
+}
